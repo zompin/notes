@@ -1,0 +1,8 @@
+.content {
+    cursor: pointer;
+}
+
+.inner:empty:before {
+    content: attr(data-placeholder);
+    color: var(--secondary);
+}

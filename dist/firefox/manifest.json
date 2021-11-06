@@ -1,0 +1,25 @@
+{
+  "name": "__MSG_extensionName__",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "default_locale": "en",
+  "sidebar_action": {
+    "default_icon": "icons/star.png",
+    "default_panel": "index.html"
+  },
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Ctrl+Alt+N"
+      }
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "webextension-toolbox/client.js"
+    ]
+  }
+}
